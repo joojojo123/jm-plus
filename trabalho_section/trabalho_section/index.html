@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Section</title>
+</head>
+
+<body>
+    <header>
+        <nav class="nav-bar">
+            <div class="logo">
+                <h1>Section</h1>
+            </div>
+            <div class="nav-list">
+                <ul>
+                    <li class="nav-item"><a href="#oque" class="nav-link">Oque é ?</a></li>
+                    <li class="nav-item"><a href="#utilizacao" class="nav-link">Utilização</a></li>
+                    <li class="nav-item"><a href="#diferenca" class="nav-link">Diferença entre section e Div</a></li>
+                </ul>
+            </div>
+
+            <div class="mobile-menu-icon">
+                <button onclick="menuShow()"><img class="icon" src="./menu_white_36dp.svg" alt=""></button>
+            </div>
+        </nav>
+        <div class="mobile-menu">
+            <ul>
+                <li class="nav-item"><a href="#" class="nav-link">Oque é?</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Utilização</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Diferença entre section e Div</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <script src="./script.js"></script>
+</body>
+<!-- MENU -->
+
+<!-- Corpo da pagina -->
+<main>
+
+<section align="center" id="oque">
+    
+    <h1>O que é <section> </h1>
+        <img src="./inicio.png">  
+    <p> O elemento HTML <section > é um elemento de valor semântico que representa uma seção genérica contida em um documento HTML, geralmente com um título, quando não existir um elemento semântico mais específico para representá-lo.
+
+        Por exemplo, um menu de navegação deve estar dentro um elemento < nav >, mas uma lista de resultados de pesquisa ou a exibição de um mapa e seus controles não possuem elementos específicos, e podem ser colocados dentro de uma < section >.
+        <br><br> Nas versões anteriores do HTML não haviam tags com uma semântica apropriada para cada uma dessas divisões. Dessa forma, os desenvolvedores acabavam usando a tag < div > para todas as situações, e criando seus próprios padrões de nomeclaturas através dos atributos id ou class.
+
+        No HTML5 foram criadas diversas tags semânticas para indicar aos user-agents quais conteúdos estão sendo inseridos em cada uma das divisão da página, organizando e padronizando o desenvolvimento. </p>
+         
+    </section>
+    <br><br><br>
+
+<section align="center" id="utilizacao">
+    
+    <h1> Utilização </h1>
+    <img src="./exemplo.png">
+    <p> A tag section é utilizada para marcar as seções de conteúdo de uma página. Com Esse elemento agrupamos de forma lógica nosso conteúdo, separando a informação em áreas diferentes. O principal objetivo é retirar essa responsabilidade das divs. Tendo como principal diferencial a navegação semântica com HTML 5. </p>
+   <br><p> Digamos que na sua página inicial você tenha três chamadas principais:
+    Clientes, Serviços e Notícias. Aí um ótimo lugar para você usar a tag section. Cada uma dessas chamadas podem ser um elemento de seção. A tag pode ser usada em conjunto com o H1, H2, H3, H4, H5 e H6, elementos para indicar a estrutura do documento. Ele pode conter um header e um footer se necessário.</p>
+</section>
+<br><br><br>
+
+<section align="center" id="diferenca">
+    
+    <h1 >Diferença entre section e div </h1>
+    <img src="./dif.png">
+    <p> <div> é um elemento não semântico no nível de bloco, que você deve usar apenas se não conseguir pensar em um elemento de bloco semântico melhor para usar ou se não quiser adicionar um significado específico, mas como eles não carregam valor semântico, eles apenas confundem seu código HTML e te auxiliam no alinhamento visual. Já a section ela veio mais pra organização e divisão do conteúdo  
+    
+<br><br> A tag section é utilizada para marcar as seções de conteúdo de uma página. Com Esse elemento agrupamos de forma lógica nosso conteúdo, separando a informação em áreas diferentes. O principal objetivo é retirar essa responsabilidade das divs. Tendo como principal diferencial a navegação semântica com HTML 5.</p>
+    
+</section>
+
+<br><br><br>
+</main>
+<!-- Corpo da pagina -->
+
+
+
+
+
+</html>
