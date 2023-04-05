@@ -1,0 +1,71 @@
+*{
+    margin: 30;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Lora', serif;
+}
+
+body,html{
+   
+height: 100;
+width: 100%;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+
+color:#03071E
+}
+
+.bg{
+    background-image: url("img/infinito.jpg");
+    background-repeat: no-repeat ;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+
+main.cards{
+    display: flex;
+    flex-direction: column;
+    padding: 32px;
+
+  
+
+}
+main.cards section.titulo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background:#E58306;
+    padding: 1rem 1.5rem;
+    border-radius: 8px;
+ 
+   
+    margin-bottom: 64px;
+}
+
+main.cards section.cards{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background:#E58306;
+    padding: 1rem 1.5rem;
+    border-radius: 8px;
+    margin-bottom: 64px;
+
+
+}
+
+main.cards section.cards .icon{
+    width: 256px;
+    height: 256px;
+}
+
+main.cards section.cards img {
+    width: 100%;
+
+}
